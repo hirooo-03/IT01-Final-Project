@@ -68,7 +68,7 @@ const students = {
         crush: "Wala"
     },
     student3: {
-        name: "Jeru Franz Sabiña",
+        name: "Jeru Franz Sabina",
         age: "18",
         address: "Angono, Rizal",
         birthday: "April, 16, 2007",
@@ -135,4 +135,5 @@ function showInfo(name){
 function showStudent(name){
     showInfo(name)
     showProfile()
+
 }
