@@ -80,7 +80,7 @@ const students = {
         why: "I'm interested in programming",
         parents: "N/A",
         parentsWork: "N/A",
-        crush: "Mary Grace Bracero"
+        crush: "Sabrina Carpenter"
     },
     student4: {
         name: "Juan Miguel Pardilla",
@@ -137,3 +137,4 @@ function showStudent(name){
     showProfile()
 
 }
+
