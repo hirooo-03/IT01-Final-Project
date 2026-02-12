@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: radial-gradient(circle at 80% 40%,rgba(137, 0, 250, 0.25) 0%,rgba(88, 0, 133, 0.15) 35%)#000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-container{
+    border-radius: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+a:hover {
+    background: rgb(168, 63, 255);
+    color: #fff;
+}
+
+li a{
+    padding: 10px 22px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#welcome-text{
+    font-size: 3em;
+    color: #b388ff;
+}
+
+#p1{
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+#view-btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #6a1df0;
+}
+
+#view-btn:hover{
+    background-color: rgb(168, 63, 255);
+}
+
+#home-page{
+    display: block;
+    padding: 20em;
+    text-align: center;
+}
+
+#student-page{
+    display: none;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#student-text{
+    color: #b388ff;
+}
+
+.student-list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.students{
+    color: white;
+    background-color: #6a1df0;
+    padding: 15px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.students:hover{
+    background-color: rgb(168, 63, 255);
+}
+
+
+#student-info-popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.student-info-container{
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    gap: 20px;
+}
+.info-container{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(22, 19, 26);
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+
+#back-button{
+    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #6a1df0;
+    color: white;
+}
+
+#back-button:hover{
+    background-color: rgb(168, 63, 255);
+}
+
+.info, h1{
+    margin: 15px;
+    color: #ccc;
+}
+
+
+#about-page{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#about-page p{
+    color: white;
+}
+
+.about-container{
+    width: 500px;
+    background-color: rgb(22, 19, 26);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center; 
+    margin-top: 15em;    
+}

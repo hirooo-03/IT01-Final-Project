@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Introductions</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#home-page" onclick="viewHome()">Home</a></li>
+                <li><a href="#student-page" onclick="viewStudent()">Students</a></li>
+                <li><a href="#about" onclick="viewAbout()">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home-page">
+        <h1 id="welcome-text">Welcome!</h1>
+        <p id="p1">Click the view button to
+        navigate through the site to view student information.</p>
+        <button id="view-btn" onclick="viewStudent()">View Students</button>
+    </section>
+
+    <section id="student-page">
+        <h1 id="student-text">Students</h1>
+        <div class="student-list-container">
+            <div class="students" onclick="showStudent('student1')">
+                <p>Student 1</p>
+            </div>
+
+            <div class="students" onclick="showStudent('student2')">
+                <p>Student 2</p>
+            </div>
+
+            <div class="students" onclick="showStudent('student3')">
+                <p>Student 3</p>
+            </div>
+
+            <div class="students" onclick="showStudent('student4')">
+                <p>Student 4</p>
+            </div>
+
+            <div class="students" onclick="showStudent('student5')">
+                <p>Student 5</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="student-info-popup">
+        <div class="student-info-container">
+            <div class="info-container">
+                <h1 id="student-name"></h1>
+                <p class="info" id="age"><strong>Age:</strong></p>
+                <p class="info" id="address"><strong>Address:</strong></p>
+                <p class="info" id="birthday"><strong>Birthday:</strong></p>
+                <p class="info" id="birthplace"><strong>Birth Place:</strong></p>
+                <p class="info" id="motto"><strong>Motto:</strong></p>
+                <p class="info" id="hobby"><strong>Hobby:</strong></p>
+                <p class="info" id="talent"><strong>Talent:</strong></p>
+                <p class="info" id="dream-course"><strong>Dream Course:</strong></p>
+                <p class="info" id="why"><strong>Why this course:</strong></p>
+                <p class="info" id="parents"><strong>Parents:</strong></p>
+                <p class="info" id="parents-work"><strong>Parents Work:</strong></p>
+                <p class="info" id="crush"><strong>Crush:</strong></p>
+                <button id="back-button" onclick="hideProfile()">Back</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-page">
+        <div class="about-container">
+            <h1>About:</h1><br>
+            <p>This is our final project in IT01</p><br>
+            <strong><p>Members:</p></strong><br>
+            <p>Yhuri Lopez</p>
+            <p>Jayy Talingdan</p>
+            <p>Jeru Franz Sabina</p>
+            <p>Juan Miguel Pardilla</p>
+            <p>Kevin Barazar</p>
+        </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
